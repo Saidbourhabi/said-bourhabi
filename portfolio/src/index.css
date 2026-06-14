@@ -38,3 +38,9 @@ h1, h2, h3, h4, h5, h6 {
         font-weight: 900;
     }
 }
+/* !Remove focus outline/box-shadow for interactive elements inside header */
+header :focus,
+header :focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
